@@ -6,3 +6,11 @@ h1 {
 .blue {
   color: #8DC1FF;
 }
+
+.pink {
+  color: pink;
+}
+
+.align {
+  align-items: center;
+}
