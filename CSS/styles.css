@@ -14,3 +14,9 @@ h1 {
 .align {
   align-items: center;
 }
+
+img {
+  float: none;
+  padding: 1px;
+  margin: 1px;
+}
