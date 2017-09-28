@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   font-family: sans-serif;
   color: pink;
 }
@@ -19,4 +19,36 @@ img {
   float: none;
   padding: 1px;
   margin: 1px;
+}*/
+/*body {
+    height: 2000px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background: linear-gradient(to bottom, #FCFAFA, #F2BACA)
+
+}*/
+/*svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}*/
+
+.bg-gradient {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(300deg, #FCFAFA, #C8D3D5, #F2BACA);
+  background-size: 300% 300%;
+  animation: gradient-bg 15s ease infinite;
+}
+
+@keyframes gradient-bg {
+  0% {background-position:7% 0%}
+  50% {background-position:94% 100%}
+  100% {background-position:7% 0%}
 }
