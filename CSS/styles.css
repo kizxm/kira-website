@@ -1,41 +1,11 @@
-/*h1 {
-  font-family: sans-serif;
-  color: pink;
-}
-
-.blue {
-  color: #8DC1FF;
-}
-
-.pink {
-  color: pink;
-}
-
-.align {
-  align-items: center;
-}
-
-img {
-  float: none;
-  padding: 1px;
-  margin: 1px;
-}*/
-/*body {
-    height: 2000px;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background: linear-gradient(to bottom, #FCFAFA, #F2BACA)
-
-}*/
-/*svg {
+svg {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-}*/
+}
 
 .bg-gradient {
   position: absolute;
@@ -52,3 +22,89 @@ img {
   50% {background-position:94% 100%}
   100% {background-position:7% 0%}
 }
+.boxes{
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  margin: -35px -30px 0 -155px;
+  padding: 0 0 0 22px;
+
+}
+.blog-card{
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  margin: -250px -30px 0 -155px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+.title-content{
+  text-align: center;
+  margin: 70px 0 0 0;
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+hr{
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0;
+}
+.card-info{
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  margin: 0 auto;
+  padding: 0 50px;
+  color: white;
+  font-family: serif;
+  font-style: 16px;
+  line-height: 24px;
+  z-index: 20;
+  opacity: 0;
+  transition: bottom .3s, opacity .3s cubic-bezier(.33,.66,.66,1);
+}
+
+.utility-info{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 20;
+}
+.intro{
+  width: 170px;
+  size: 16px;
+  margin: 0 auto;
+  color: white;
+  font-family: serif;
+  font-size: 13px;
+  font-style: none;
+  line-height: 18px;
+}
+.utility-list{
+  list-style-type: none;
+  margin: 0 0 30px 20px;
+  padding: 0;
+  width: 100%;
+}
+  li {
+    margin: 0 15px 0 0;
+    padding: 0 0 0 22px;
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+}
+    .comments{
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg) no-repeat 0 .1em;
+    }
+    .date{
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 .1em;
+    }
