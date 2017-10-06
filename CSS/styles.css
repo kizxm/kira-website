@@ -1,3 +1,8 @@
+::selection {
+  background-color: #A4B8C4;
+  color: #000;
+}
+
 svg {
   width: 100%;
   height: auto;
@@ -102,9 +107,3 @@ hr{
     color: white;
     font-family: sans-serif;
 }
-    .comments{
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg) no-repeat 0 .1em;
-    }
-    .date{
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 .1em;
-    }
