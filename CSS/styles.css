@@ -147,6 +147,19 @@ ul li a{
 	text-decoration: none;
 }
 
+ul li hey{
+	background:#000000;
+	color:#ccc;
+	border-bottom:1px solid #111;
+	display:block;
+	width:500px;
+  height: 150px;
+	padding:10px;
+	font-size: 40pt;
+  font-family: serif;
+}
+
+
 /*ul li a:hover {
     letter-spacing: 1.5px;
     transform: scale(1.5);
@@ -159,13 +172,13 @@ ul li a{
 #sidebar-btn{
 	display:inline-block;
 	vertical-align: middle;
-	width:20px;
+	width:30px;
 	height:15px;
 	cursor:pointer;
 	margin:10px;
 	position:absolute;
 	top:0px;
-	right:-60px;
+	right:-70px;
 }
 
 #sidebar-btn span{
@@ -186,7 +199,7 @@ ul li a{
 /*-----------------------*/
 
 
-.glitch{
+/*.glitch{
   position: relative;
   animation: glitchAnim 3s linear infinite, glitchColour 7s step-start infinite;
   animation-iteration-count: 3;
@@ -208,4 +221,4 @@ ul li a{
 @keyframes glitchColour{
   0%, 5%, 99%{filter: grayscale(0);}
   4%, 6%, 100%{filter: grayscale(100%)}
-}
+}*/
