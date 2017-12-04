@@ -100,13 +100,7 @@ hr{
   padding: 0;
   width: 100%;
 }
-  /*li {
-    margin: 0 15px 0 0;
-    padding: 0 0 0 22px;
-    display: inline-block;
-    color: white;
-    font-family: sans-serif;
-}*/
+
 /*------------------------------------------------------------------------*/
 
 #sidebar{
@@ -136,26 +130,21 @@ a:hover {
 
 /*------------------*/
 
-.link {
-		font-size: 13px;
-		margin-bottom: 0.5em;
-}
-
-.link.anim-destination {
+.anim-destination {
 	display: inline-block;
 	overflow: hidden;
 	padding-right: 0.5em;
 	font-size: 2em;
 }
 
-.link.anim-destination span {
+.anim-destination span {
 	position: relative;
 	display: inline-block;
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
 }
 
-.link.anim-destination span::before {
+.anim-destination span::before {
 	position: absolute;
 	white-space: nowrap;
 	top: 100%;
@@ -163,8 +152,8 @@ a:hover {
 	font-weight: 500;
 }
 
-.link.anim-destination:hover span,
-.link.anim-destination:focus span {
+.anim-destination:hover span,
+.anim-destination:focus span {
 	-webkit-transform: translateY(-100%);
 	transform: translateY(-150%);
 }
@@ -216,30 +205,3 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:100%;
 }
-
-/*-----------------------*/
-
-
-/*.glitch{
-  position: relative;
-  animation: glitchAnim 3s linear infinite, glitchColour 7s step-start infinite;
-  animation-iteration-count: 3;
-}
-
-.image{
-  display: inline-block;
-  width: 400px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@keyframes glitchAnim{
-  0%, 5%, 40%, 60%, 100%{transform: scaleX(1);}
-  4.3%{transform: scaleX(2)}
-}
-
-@keyframes glitchColour{
-  0%, 5%, 99%{filter: grayscale(0);}
-  4%, 6%, 100%{filter: grayscale(100%)}
-}*/
