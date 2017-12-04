@@ -18,7 +18,7 @@ svg {
   width: 100%;
   height: 100%;
   background: linear-gradient(300deg, #FCFAFA, #C8D3D5, #F2BACA);
-  background-size: 300% 300%;
+  background-size: 250% 250%;
   animation: gradient-bg 15s ease infinite;
 }
 
@@ -85,14 +85,14 @@ hr{
   z-index: 20;
 }
 .intro{
-  width: 170px;
+  width: 360px;
   size: 16px;
   margin: 0 auto;
   color: white;
-  font-family: serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 13px;
   font-style: none;
-  line-height: 18px;
+  text-align: left;
 }
 .utility-list{
   list-style-type: none;
@@ -109,23 +109,66 @@ hr{
 }*/
 /*------------------------------------------------------------------------*/
 
-
 #sidebar{
 	background: #000000;
   opacity: .5s;
-	width:500px;
+	width:400px;
 	height:100%;
 	display:block;
 	position:absolute;
-	left:-520px;
+	left:-420px;
 	top:0px;
 	transition:left 1s ease;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 10px;
+  text-align: left;
 }
 
 #sidebar.visible{
 	left:0px;
 	transition:left .7s ease;
 }
+
+a:hover {
+    color: #F2BACA;
+    text-decoration: none;
+}
+
+/*------------------*/
+
+.link {
+		font-size: 13px;
+		margin-bottom: 0.5em;
+}
+
+.link.anim-destination {
+	display: inline-block;
+	overflow: hidden;
+	padding-right: 0.5em;
+	font-size: 2em;
+}
+
+.link.anim-destination span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.link.anim-destination span::before {
+	position: absolute;
+	white-space: nowrap;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 500;
+}
+
+.link.anim-destination:hover span,
+.link.anim-destination:focus span {
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-150%);
+}
+/*------------------*/
 
 ul{
 	margin:0px;
@@ -141,21 +184,11 @@ ul li a{
 	color:#ccc;
 	border-bottom:1px solid #111;
 	display:block;
-	width:500px;
-  height: 150px;
+	width:400px;
+  height: 100px;
 	padding:10px;
 	text-decoration: none;
 }
-
-
-/*ul li a:hover {
-    letter-spacing: 1.5px;
-    transform: scale(1.5);
-    color: #39577C;
-    width:500px;
-    height: 150px;
-  	padding:10px;
-}*/
 
 #sidebar-btn{
 	display:inline-block;
