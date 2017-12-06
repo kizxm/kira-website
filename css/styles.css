@@ -174,26 +174,26 @@ ul li{
 }
 
 ul li a{
-	background:#282828;
-	color:#ccc;
-	border-bottom:1px solid #282828;
+	background: #282828;
+	color: #ccc;
+	border-bottom: 1px solid #282828;
 	display:block;
-	width:400px;
+	width: 400px;
   height: 100px;
-	padding:10px;
+	padding: 10px;
 	text-decoration: none;
 }
 
 #sidebar-btn{
-	display:inline-block;
+	display: inline-block;
 	vertical-align: middle;
-	width:30px;
-	height:15px;
-	cursor:pointer;
-	margin:10px;
-	position:absolute;
-	top:0px;
-	right:-70px;
+	width: 30px;
+	height: 15px;
+	cursor: pointer;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	right: -70px;
 }
 
 #sidebar-btn span{

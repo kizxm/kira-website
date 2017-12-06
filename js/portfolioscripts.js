@@ -12,7 +12,7 @@ window.onload = function(){
       var thumbCount;
 
     imgObjectArray = [];
-    thumbCount = 16;
+    thumbCount = 18;
 
   var createThumb = function(imgSource){
           this.imgSource = imgSource;
@@ -24,12 +24,10 @@ window.onload = function(){
      img = new createThumb('url(https://farm6.staticflickr.com/5701/19951998424_3797aa642d_c.jpg)');
      img = new createThumb('url(https://farm4.staticflickr.com/3787/20030125948_c3ecf392ba_c.jpg)');
      img = new createThumb('url(https://farm1.staticflickr.com/263/19037242528_2be9de9948_c.jpg)');
-     img = new createThumb('url(https://farm1.staticflickr.com/270/18331518113_fccbc98f23_c.jpg)');
      img = new createThumb('url(https://farm8.staticflickr.com/7486/15595599858_3e4a35fb96_c.jpg)');
      img = new createThumb('url(https://farm6.staticflickr.com/5333/17668757336_f0c64cfd6f_c.jpg)');
      img = new createThumb('url(https://farm9.staticflickr.com/8766/17304198655_6eac16760a_c.jpg)');
      img = new createThumb('url(https://farm8.staticflickr.com/7627/16193390644_9f6c7648e2_c.jpg)');
-     img = new createThumb('url(https://farm9.staticflickr.com/8580/16521420529_6d9c24e42f_c.jpg)');
      img = new createThumb('url(https://farm8.staticflickr.com/7362/16538135571_4d1246cfca_c.jpg)');
      img = new createThumb('url(https://farm8.staticflickr.com/7538/16263391731_28ce593800_c.jpg)');
      img = new createThumb('url(https://farm8.staticflickr.com/7581/15216495424_421b55419b_c.jpg)');
@@ -89,11 +87,6 @@ window.onload = function(){
               thumbnailBody.appendChild(imgDivs);
 
             }
-    var footer = document.createElement("DIV");
-        footer.className = "footer";
-    var footerText = document.createTextNode("© Orkhan Farmanli");
-        footer.appendChild(footerText);
-        document.body.appendChild(footer);
 
 function createPopup(){
 
