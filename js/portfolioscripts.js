@@ -19,28 +19,28 @@ window.onload = function(){
           imgObjectArray.push(imgSource);
       };
 
-     img = new createThumb('url(https://farm1.staticflickr.com/695/22618827597_fcca45ef4d_c.jpg)');
-     img = new createThumb('url(https://farm1.staticflickr.com/606/21893822586_c3e48f224e_c.jpg)');
-     img = new createThumb('url(https://farm6.staticflickr.com/5701/19951998424_3797aa642d_c.jpg)');
-     img = new createThumb('url(https://farm4.staticflickr.com/3787/20030125948_c3ecf392ba_c.jpg)');
-     img = new createThumb('url(https://farm1.staticflickr.com/263/19037242528_2be9de9948_c.jpg)');
-     img = new createThumb('url(https://farm8.staticflickr.com/7486/15595599858_3e4a35fb96_c.jpg)');
-     img = new createThumb('url(https://farm6.staticflickr.com/5333/17668757336_f0c64cfd6f_c.jpg)');
-     img = new createThumb('url(https://farm9.staticflickr.com/8766/17304198655_6eac16760a_c.jpg)');
-     img = new createThumb('url(https://farm8.staticflickr.com/7627/16193390644_9f6c7648e2_c.jpg)');
-     img = new createThumb('url(https://farm8.staticflickr.com/7362/16538135571_4d1246cfca_c.jpg)');
-     img = new createThumb('url(https://farm8.staticflickr.com/7538/16263391731_28ce593800_c.jpg)');
-     img = new createThumb('url(https://farm8.staticflickr.com/7581/15216495424_421b55419b_c.jpg)');
-     img = new createThumb('url(https://farm9.staticflickr.com/8896/18310898258_e42798b6b0_c.jpg)');
-     img = new createThumb('url(https://farm4.staticflickr.com/3938/15005623764_3fae74df31_c.jpg)');
-     img = new createThumb('url(https://farm4.staticflickr.com/3897/14949377887_7ee567f802_c.jpg)');
-     img = new createThumb('url(https://farm4.staticflickr.com/3895/14948809319_a0a99afb78_c.jpg)');
-     img = new createThumb('url(https://farm6.staticflickr.com/5567/14948971307_a0088a26be_c.jpg)');
-     img = new createThumb('url(https://farm4.staticflickr.com/3903/14948992927_57a1e4e748_c.jpg)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/tomatoholder.png)');
 
     var header = document.createElement("DIV");
         header.className = "header";
-    var headerText = document.createTextNode("My Gallery");
+    var headerText = document.createTextNode("Portfolio");
         header.appendChild(headerText);
         document.body.appendChild(header);
 
