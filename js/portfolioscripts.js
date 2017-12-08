@@ -19,15 +19,15 @@ window.onload = function(){
           imgObjectArray.push(imgSource);
       };
 
+     img = new createThumb('url(img/slide4.png)');
+     img = new createThumb('url(img/slide5.png)');
+     img = new createThumb('url(img/slide6.png)');
      img = new createThumb('url(img/slide1.png)');
      img = new createThumb('url(img/slide2.png)');
      img = new createThumb('url(img/slide3.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
-     img = new createThumb('url(img/tomatoholder.png)');
+     img = new createThumb('url(img/slide7.png)');
+     img = new createThumb('url(img/slide8.png)');
+     img = new createThumb('url(img/slide9.png)');
      img = new createThumb('url(img/tomatoholder.png)');
      img = new createThumb('url(img/tomatoholder.png)');
      img = new createThumb('url(img/tomatoholder.png)');

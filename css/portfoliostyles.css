@@ -39,7 +39,7 @@ body {
 }
 
 .imgBox {
-  border-radius: 15px;
+  border-radius: 2px;
   width: 355px;
   height: 234px;
   display: inline-block;
