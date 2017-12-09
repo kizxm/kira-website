@@ -19,7 +19,7 @@ body {
   height: 60px;
   line-height: 60px;
   font-size: 40px;
-  letter-spacing: 10px;
+  letter-spacing: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -118,4 +118,18 @@ body {
   filter: brightness(120%);
   -webkit-filter: brightness(120%);
   cursor: pointer;
+}
+
+/*-------------------------------------------*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }

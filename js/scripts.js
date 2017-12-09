@@ -3,5 +3,4 @@ console.log("hello123");
 $('#sidebar-btn').click(function(){
   $('#sidebar').toggleClass('visible');
 });
-
 });
