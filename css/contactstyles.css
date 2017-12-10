@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  background-color: #f2bfce;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#my-id-wrap {
+  background-color: rgba(255, 255, 255, 0.60);
+  border-radius: 2vh;
+  height: 500px;
+  width: 650px;
+  margin: auto;
+  padding: 5vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#my-id-pic {
+  margin-bottom: 2vh;
+}
+#my-pic {
+  height: 200px;
+  width: 200px;
+  margin: 0vh 0 vh 0;
+  position: relative;
+  z-index: 5;
+}
+#my-pic-bg {
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  border-radius: 10vh;
+  background-color: rgba(255, 198, 219, 0.80);
+}
+
+#email {
+  font: 3vh 'Raleway', sans-serif;
+  letter-spacing: 18px;
+  color: #545456;
+}
+
+#my-id-contact i{
+  font-size: 5vh;
+  margin: 2vh;
+  color: rgba(0,0,0,0.70);
+}
