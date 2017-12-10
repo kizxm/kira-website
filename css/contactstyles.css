@@ -10,8 +10,8 @@ body {
 #my-id-wrap {
   background-color: rgba(255, 255, 255, 0.60);
   border-radius: 2vh;
-  height: 500px;
-  width: 650px;
+  height: 700px;
+  width: 850px;
   margin: auto;
   padding: 5vh;
   position: absolute;
@@ -55,4 +55,9 @@ body {
   font-size: 5vh;
   margin: 2vh;
   color: rgba(0,0,0,0.70);
+}
+#aboutk{
+  display: block;
+  margin: 3vh;
+  font: 2vh 'Raleway', sans-serif;
 }
