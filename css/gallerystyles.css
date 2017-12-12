@@ -23,3 +23,15 @@ background: linear-gradient(to left, #F2BACA, #C8D3D5, #FCFAFA);
 .card:hover p {
   background-color: white;
 }
+/*------------------------------------------------------------------------*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
