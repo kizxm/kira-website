@@ -29,7 +29,6 @@ body {
   height: 200px;
   width: 200px;
   margin: 0vh 0 vh 0;
-  position: relative;
   z-index: 5;
 }
 #my-pic-bg {

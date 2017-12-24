@@ -6,7 +6,9 @@
 
 ## Setup/Installation Requirements
 
-* _Open in an internet explorer, it is a simple website_
+* _Open in an internet explorer, it is a simple website
+
+www.kizxm.com_
 
 ## Known Bugs
 
