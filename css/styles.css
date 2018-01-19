@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*------------------------------------------------------------------------*/
  ::selection {
   background-color: #A4B8C4;
@@ -115,8 +115,8 @@ hr{
 	left:-420px;
 	top: 0px;
 	transition:left 1s ease;
-  font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 12px;
   text-align: left;
 }
 
