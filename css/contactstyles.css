@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+/*------------------------------------------------------------------------*/
 
 body {
   background-color: #f2bfce;
@@ -45,7 +47,7 @@ body {
 }
 
 #email {
-  font: 3vh 'Raleway', sans-serif;
+  font: 3vh 'Poiret One', sans-serif;
   letter-spacing: 18px;
   color: #545456;
 }
