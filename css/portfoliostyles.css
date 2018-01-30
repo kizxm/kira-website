@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*------------------------------------------------------------------------*/
 
 .scroll-down {
@@ -94,7 +93,7 @@ body {
   background: #FCFAFA;
   padding: 0;
   text-align: center;
-  font-family: 'open sans';
+  font-family:'Poiret One', sans-serif;
   position: relative;
   margin: 0;
   height: 100%;
@@ -141,7 +140,7 @@ h2 {
 
 .pointer {
   color: #00B0FF;
-  font-family: 'Pacifico';
+  font-family: 'Poiret One', sans-serif;
   font-size: 24px;
   margin-top: 15px;
   position: absolute;
@@ -151,7 +150,7 @@ h2 {
 
 .pointer2 {
   color: #00B0FF;
-  font-family: 'Pacifico';
+  font-family: 'Poiret One', sans-serif;
   font-size: 24px;
   margin-top: 15px;
   position: absolute;
@@ -189,7 +188,7 @@ pre code {
   font-weight: 100;
   margin: 0;
   padding-top: 55px;
-  font-family: 'Open Sans';
+  font-family: 'Poiret One', sans-serif;
   letter-spacing: -1px;
   text-transform: capitalize;
 }
@@ -468,7 +467,7 @@ pre code {
   line-height: 60px;
   font-size: 20px;
   letter-spacing: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-weight: bold;
   text-align: center;
   background: #c2c2c2;
