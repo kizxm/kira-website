@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*------------------------------------------------------------------------*/
+img {
+    left: 0px;
+		right: 900px;
+    top: 0px;
+		bottom: 10%;
+    z-index: -1;
+}
 
 .scroll-down {
 	position: absolute;
@@ -43,6 +50,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+		height: 100%;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -85,14 +93,9 @@ html {
   height: 100%;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   background: #FCFAFA;
   padding: 0;
-  text-align: center;
   font-family:'Poiret One', sans-serif;
   position: relative;
   margin: 0;
@@ -110,32 +113,11 @@ body {
 a {
   text-decoration: none;
 }
-
-h1, h2 {
-  width: 100%;
-  float: left;
+a:hover {
+    text-decoration: none;
 }
-
-h1 {
-  margin-top: 100px;
-  color: #999;
-  margin-bottom: 5px;
-  font-size: 70px;
-  font-weight: 100;
-}
-
-h2 {
-  padding: 00px 20px 30px 20px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  letter-spacing: 0px;
-  color: #888;
-  font-size: 20px;
-  line-height: 160%;
-  font-weight: 100;
-  margin-top: 10px;
-  margin-bottom: 0;
+a:visited {
+  color: none;
 }
 
 .pointer {
@@ -400,62 +382,58 @@ pre code {
   background-size: cover;
 }
 .tps-section:nth-child(4n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide5.png?raw=true) center center;
-  background-size: cover;
-}
-.tps-section:nth-child(5n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide6.png?raw=true) center center;
-  background-size: cover;
-}
-.tps-section:nth-child(6n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide13.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(7n) .tps-wrapper {
+.tps-section:nth-child(5n) .tps-wrapper {
+  background: url() center center;
+  background-size: cover;
+}
+.tps-section:nth-child(6n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/freelancetitle.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(8n) .tps-wrapper {
+.tps-section:nth-child(7n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide12.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(9n) .tps-wrapper {
+.tps-section:nth-child(8n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide10.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(10n) .tps-wrapper {
+.tps-section:nth-child(9n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide1.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(11n) .tps-wrapper {
+.tps-section:nth-child(10n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide2.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(12n) .tps-wrapper {
+.tps-section:nth-child(11n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide3.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(13n) .tps-wrapper {
+.tps-section:nth-child(12n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/othertitle.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(14n) .tps-wrapper {
+.tps-section:nth-child(13n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide11.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(15n) .tps-wrapper {
+.tps-section:nth-child(14n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide7.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(16n) .tps-wrapper {
+.tps-section:nth-child(15n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide8.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(17n) .tps-wrapper {
+.tps-section:nth-child(16n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide9.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(18n) .tps-wrapper {
+.tps-section:nth-child(17n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/endslide.png?raw=true) center center;
   background-size: cover;
 }
@@ -474,5 +452,5 @@ pre code {
   color: white;
   position: fixed;
   top: 0;
-  z-index: 5;
+  z-index: 1;
 }
