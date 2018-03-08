@@ -8,6 +8,7 @@
          pageContainer: '.page_container',
          pageOpacity: true
      };
+
      $.fn.tiltedpage_scroll = function (options) {
          var settings = $.extend({}, defaults, options),
              el = $(this);
@@ -32,10 +33,12 @@
                  el4.removeClass("tps-inview")
              }
          }
+
          $(window).on('DOMContentLoaded load resize scroll', function () {
              el.find(settings.sectionContainer).each(function () {
                  elementVisibilityMayChange($(this));
              });
+
              el.find('.tps-section.tps-inview > .tps-wrapper').each(function (index) {
                  var el2 = $(this),
                      elc = el2.find(settings.pageContainer),
@@ -94,6 +97,7 @@
              });
          });
      }
+     
  }(window.jQuery);
 
 $(document).ready(function(){
