@@ -29,14 +29,15 @@ svg {
   50% {background-position:94% 100%}
   100% {background-position:7% 0%}
 }
+
 .boxes{
   position: absolute;
   top: 70%;
   left: 45%;
   margin: -35px -30px 0 -155px;
   padding: 0 0 0 22px;
-
 }
+
 .blog-card{
   width: 450px;
   height: 200px;
@@ -46,7 +47,7 @@ svg {
   margin: -200px -30px 0 -155px;
   overflow: hidden;
   border-radius: 75px;
-  /*box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);*/
+  /* box-shadow: 3px 3px 20px rgba(0, 0, 0, .25); */
   text-align: center;
 }
 .title-content{
@@ -110,9 +111,9 @@ hr{
   opacity: .5s;
 	width: 400px;
 	height: 100%;
-	display:block;
-	position:absolute;
-	left:-420px;
+	display: block;
+	position: absolute;
+	left: -420px;
 	top: 0px;
 	transition:left 1s ease;
   font-family: 'Poiret One', sans-serif;
