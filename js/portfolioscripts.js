@@ -1,4 +1,6 @@
-! function ($) {
+    console.log("Thanks for looking at my portfolio!! Let's talk: kizxm@yahoo.com");
+
+    ! function ($) {
      var defaults = {
          sectionContainer: "> section",
          angle: 50,
@@ -97,7 +99,7 @@
              });
          });
      }
-     
+
  }(window.jQuery);
 
 $(document).ready(function(){

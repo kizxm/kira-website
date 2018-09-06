@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*------------------------------------------------------------------------*/
+
 img {
     left: 0px;
 		right: 900px;
@@ -437,7 +438,6 @@ pre code {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/endslide.png?raw=true) center center;
   background-size: cover;
 }
-
 
 .header {
   width: 100%;
