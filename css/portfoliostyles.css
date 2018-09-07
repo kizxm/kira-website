@@ -395,7 +395,7 @@ pre code {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide4.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(4n) .tps-wrapper {
+/* .tps-section:nth-child(4n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide13.png?raw=true) center center;
   background-size: cover;
 }
@@ -442,7 +442,7 @@ pre code {
 .tps-section:nth-child(15n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide8.png?raw=true) center center;
   background-size: cover;
-}
+} */
 /* .tps-section:nth-child(16n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide9.png?raw=true) center center;
   background-size: cover;
