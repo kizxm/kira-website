@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /*------------------------------------------------------------------------*/
-
 img {
     left: 0px;
 		right: 900px;
@@ -20,8 +19,8 @@ img {
 	text-shadow: 0;
   width: 25px;
   height: 25px;
-  border-bottom: 5px solid #000;
-  border-right: 5px solid #000;
+  border-bottom: 5px solid #FFF;
+  border-right: 5px solid #FFF;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -93,9 +92,23 @@ html {
   width: 100%;
   height: 100%;
 }
-
+.header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  letter-spacing: 30px;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  /* background: #b9c3c5, #FFF; */
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
 body {
-  background: #FCFAFA;
+  background: #C8D3D5;
   padding: 0;
   font-family:'Poiret One', sans-serif;
   position: relative;
@@ -430,27 +443,11 @@ pre code {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide8.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(16n) .tps-wrapper {
+/* .tps-section:nth-child(16n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide9.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(17n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/endslide.png?raw=true) center center;
   background-size: cover;
-}
-
-.header {
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  font-size: 20px;
-  letter-spacing: 30px;
-  font-family: 'Poiret One', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  background: #c2c2c2;
-  color: white;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
+} */

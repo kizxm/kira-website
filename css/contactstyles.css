@@ -41,12 +41,14 @@ html {
 #my-id-pic {
   margin-bottom: 2vh;
 }
+
 #my-pic {
   height: 200px;
   width: 200px;
   margin: 0vh 0 vh 0;
   z-index: 5;
 }
+
 #my-pic-bg {
   height: 20vh;
   width: 20vh;
@@ -71,14 +73,17 @@ html {
   margin: 2vh;
   color: rgba(0,0,0,0.70);
 }
+
 #aboutk{
   display: block;
   margin: 3vh;
   font: 2vh 'Raleway', sans-serif;
 }
+
 img {
   z-index: 0;
 }
+
 .overlay {
   opacity: 1;
   display: inline-block;
