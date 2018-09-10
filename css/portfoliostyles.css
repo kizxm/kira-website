@@ -396,31 +396,31 @@ pre code {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide2.png?raw=true) center center;
   background-size: cover;
 }
-/* .tps-section:nth-child(4n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide13.png?raw=true) center center;
+.tps-section:nth-child(4n) .tps-wrapper {
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide3.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(5n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/recentiaassets.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide4.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(6n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/freelancetitle.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide5.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(7n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide12.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide6.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(8n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide10.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/endslide.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(9n) .tps-wrapper {
+/* .tps-section:nth-child(9n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide1.png?raw=true) center center;
   background-size: cover;
-}
-.tps-section:nth-child(10n) .tps-wrapper {
+} */
+/* .tps-section:nth-child(10n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide2.png?raw=true) center center;
   background-size: cover;
 }
@@ -451,4 +451,4 @@ pre code {
 .tps-section:nth-child(17n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/endslide.png?raw=true) center center;
   background-size: cover;
-} */
+}
