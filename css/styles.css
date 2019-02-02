@@ -137,14 +137,14 @@ a:visited {
 
 /*------------------------------------------------------------------------*/
 
-.anim-destination {
+.floating {
 	display: inline-block;
 	overflow: hidden;
 	padding-right: 0.5em;
 	font-size: 2em;
 }
 
-.anim-destination span {
+.floating span {
 	position: relative;
 	display: inline-block;
 	-webkit-transition: -webkit-transform 0.5s;
@@ -152,7 +152,7 @@ a:visited {
   letter-spacing: 15px;
 }
 
-.anim-destination span::before {
+.floating span::before {
 	position: absolute;
 	white-space: nowrap;
 	top: 100%;
@@ -160,8 +160,8 @@ a:visited {
 	font-weight: 500;
 }
 
-.anim-destination:hover span,
-.anim-destination:focus span {
+.floating:hover span,
+.floating:focus span {
 	-webkit-transform: translateY(-80%);
 	transform: translateY(-50%);
 }

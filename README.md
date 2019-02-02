@@ -1,26 +1,14 @@
-# _Kira's Landing Page_
+# _Kira's Website & Portfolio_
+![Alt text](img/kiragif.gif)
+#### By Kira Loo 🍅
+##
 
-#### _Pretty cool site for learning and landing on, 6/7/2017_
+* _www.kizxm.com_
 
-#### By _**Kira Loo**_
 
-## Setup/Installation Requirements
+## Contact
 
-* _Open in an internet explorer, it is a simple website
-
-www.kizxm.com_
-
-## Known Bugs
-
-_none_
-
-## Support and contact details
-
-_n/a_
-
-## Technologies Used
-
-_HTML, CSS, Bootstrap, Atom Texteditor_
+_kizxm@yahoo.com_
 
 ###
-Copyright (c) 2017 **_Kira_**
+Copyright (c) 2019 **_Kira_**
