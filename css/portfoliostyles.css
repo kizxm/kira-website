@@ -108,8 +108,7 @@ html {
   z-index: 1;
 }
 body {
-  background: -webkit-linear-gradient(to left, #FCFAFA, #d4d4d4);
-  background: linear-gradient(to left, #FCFAFA, #d4d4d4);
+  background: #050505;
   padding: 0;
   font-family:'Poiret One', sans-serif;
   position: relative;
@@ -421,22 +420,22 @@ pre code {
   background-size: cover;
 }
 .tps-section:nth-child(10n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/finalslide.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide9.png?raw=true) center center;
   background-size: cover;
 }
-/* .tps-section:nth-child(11n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide3.png?raw=true) center center;
+.tps-section:nth-child(11n) .tps-wrapper {
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide10.png?raw=true) center center;
   background-size: cover;
 }
 .tps-section:nth-child(12n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/othertitle.png?raw=true) center center;
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/finalslide.png?raw=true) center center;
   background-size: cover;
 }
-.tps-section:nth-child(13n) .tps-wrapper {
-  background: url(https://github.com/kizxm/kira-website/blob/master/img/slide11.png?raw=true) center center;
+/* .tps-section:nth-child(13n) .tps-wrapper {
+  background: url(https://github.com/kizxm/kira-website/blob/master/img/finalslide.png?raw=true) center center;
   background-size: cover;
-}
-.tps-section:nth-child(14n) .tps-wrapper {
+} */
+/* .tps-section:nth-child(14n) .tps-wrapper {
   background: url(https://github.com/kizxm/kira-website/blob/master/img/slide7.png?raw=true) center center;
   background-size: cover;
 }

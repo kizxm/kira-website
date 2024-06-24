@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
 /*------------------------------------------------------------------------*/
  ::selection {
   background-color: #A4B8C4;
@@ -19,7 +19,7 @@ svg {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: linear-gradient(300deg, #FCFAFA, #C8D3D5, #F2BACA);
+  background: linear-gradient(300deg, #00209e, #000000, #000000);
   background-size: 250% 250%;
   animation: gradient-bg 8s linear infinite;
 }
@@ -46,7 +46,7 @@ svg {
   left: 45%;
   margin: -200px -30px 0 -155px;
   overflow: hidden;
-  border-radius: 75px;
+  border-radius: 15px;
   /* box-shadow: 3px 3px 20px rgba(0, 0, 0, .25); */
   text-align: center;
 }
@@ -54,10 +54,9 @@ svg {
   text-align: center;
   margin: 25px 0 0 0;
   position: absolute;
-  z-index: 20;
+  z-index: 0;
   width: 100%;
   top: 0;
-  left: 5px;
 }
 hr{
   width: 50px;
@@ -83,18 +82,18 @@ hr{
 
 .utility-info{
   position: absolute;
-  bottom: 0px;
-  left: 0;
+  bottom: -20px;
+  left: auto;
   z-index: 20;
 }
 .intro{
   width: 360px;
   size: 16px;
-  margin: 30px;
-  letter-spacing: 5px;
-  color: #fff;
-  font-family: 'Poiret One', sans-serif;
-  font-size: 16px;
+  margin: 0 0 0 30px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
   text-align: left;
 }
 .utility-list{
@@ -104,10 +103,18 @@ hr{
   width: 100%;
 }
 
+.nunito-light {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
 /*------------------------------------------------------------------------*/
 
 #sidebar{
-	background: #282828;
+	background: #050505;
   opacity: .5s;
 	width: 400px;
 	height: 100%;
@@ -127,7 +134,7 @@ hr{
 }
 
 a:hover {
-    color: #F2BACA;
+    color: #3858d6;
     text-decoration: none;
     font-weight: 1000;
 }
@@ -140,7 +147,7 @@ a:visited {
 .floating {
 	display: inline-block;
 	overflow: hidden;
-	padding-right: 0.5em;
+  font-family: 'Nunito', sans-serif;
 	font-size: 2em;
 }
 
@@ -149,7 +156,7 @@ a:visited {
 	display: inline-block;
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
-  letter-spacing: 15px;
+  letter-spacing: 3px;
 }
 
 .floating span::before {
@@ -177,9 +184,9 @@ ul li{
 }
 
 ul li a{
-	background: #282828;
+	background: #050505;
 	color: #ccc;
-	border-bottom: 1px solid #282828;
+	border-bottom: 1px solid #050505;
 	display:block;
 	width: 400px;
   height: 100px;
