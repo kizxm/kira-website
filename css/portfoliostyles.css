@@ -19,8 +19,8 @@ img {
 	text-shadow: 0;
   width: 25px;
   height: 25px;
-  border-bottom: 5px solid #FFF;
-  border-right: 5px solid #FFF;
+  border-bottom: 5px solid #FFFFFF;
+  border-right: 5px solid #FFFFFF;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
